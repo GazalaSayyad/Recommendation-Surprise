@@ -6,10 +6,10 @@ Recommended a movie to the users based on user Id.
 
 
 # Built with
-Python
-Surprise
-Fast-API
-Joblib
+1.Python
+2.Surprise
+3.Fast-API
+4.Joblib
 ## Getting Started
 
 # Installation
@@ -29,7 +29,7 @@ pip install scikit-surprise
 Surprise (Simple Python Recommendation System Engine) is a recommendation system library, which is one of the scikit series. Simple and easy to use, while supporting a variety of recommendation algorithms (basic algorithm, collaborative filtering, matrix decomposition, etc.)
 
 
- # Hoe to Run
+ # How to Run
 
  uvicorn mai:app --port number
  
