@@ -2,7 +2,7 @@
 
 
 ## About the projects
-Recommended a movie to the users based on user Id.
+Recommended a movie rating to the users based on Movie Id.
 
 
 # Built with

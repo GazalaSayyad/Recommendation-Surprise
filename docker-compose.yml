@@ -1,10 +1,18 @@
-version: "3.7"
+# version: "3.7"
+# services:
+#   fast-api:
+#     build: ./app
+#     container_name: recommended-fast-api
+#     restart: always
+#     ports:
+#       - "80:80"
 
-services:
-
-  fast-api:
-    build: ./app
-    container_name: fast-api
-    restart: always
-    ports:
-      - "80:80"
+version: '3.7'
+services: 
+    core_api:
+        build: .
+        container_name: "core-api-container"
+        ports: 
+            - "8000:8000"
+        volumes: 
+            - ./app/:/app
