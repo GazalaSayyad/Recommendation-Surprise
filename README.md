@@ -6,23 +6,22 @@ Recommended a movie to the users based on user Id.
 
 
 # Built with
-1.Python
-2.Surprise
-3.Fast-API
-4.Joblib
+  Python
+  Surprise
+  Fast-API
+  Joblib
 ## Getting Started
 
 # Installation
 This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
 
 ## Installation
-pip install fastapi uvicorn
-pip install scikit-surprise
+  pip install fastapi uvicorn
+  pip install scikit-surprise
 
 
 ## Dataset
 [http://files.grouplens.org/datasets/movielens/ml-100k.zip...]
-
 
 
 # # Surprise Model
